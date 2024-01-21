@@ -30,5 +30,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
-    - name:Test 2  
-      run: pwd
+# Runs a single command using the runners shell
+    - name: Send greeting
+      run: pwd  
+    
